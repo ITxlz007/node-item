@@ -6,7 +6,7 @@ module.exports = (sql, values, cb) => {
         port: 3306,
         user: 'root',
         password: '',
-        database: 'yingxiong',
+        database: 'hero',
         multipleStatements: true
     });
     conn.connect();
